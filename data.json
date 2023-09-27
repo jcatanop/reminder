@@ -1,22 +1,26 @@
 [
   {
-    "name": "Juan",
-    "day": "12",
-    "month": "01"
+    "name":"Juan",
+    "birthday":"09/12",
+    "alert":"09/10",
+    "mail":"juan@mail.mail"
   },
   {
-    "name": "Monica",
-    "day": "22",
-    "month": "04"
+    "name":"Monica",
+    "birthday":"04/22",
+    "alert":"04/20",
+    "mail":"monica@mail.mail"
   },
   {
-    "name": "Mariana",
-    "day": "26",
-    "month": "09"
+    "name":"Mariana",
+    "birthday":"09/27",
+    "alert": "09/25",
+    "mail":"mariana@mail.mail"
   },
   {
     "name": "Lucia",
-    "day": "15",
-    "month": "06"
+    "birthday": "06/15",
+    "alert": "06/13",
+    "mail":"lucia@mail.mail"
   }
 ]

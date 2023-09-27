@@ -19,8 +19,8 @@ function mailer ( $to , $subject , $body , $mailUsername , $mailPassword , $mail
     $mail->SMTPSecure = 'ssl';   
     $mail->Port = 465;                // Puerto SMTP
 
-    $mail->From = 'info@appox.ai';
-    $mail->FromName = 'Appox';
+    $mail->From = $mailUsername;
+    $mail->FromName = 'yor-name';
     $mail->addAddress($to);
     $mail->isHTML(true);
     $mail->Subject = $subject;
